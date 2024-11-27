@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Setter font til Arial */
+    text-align: center; /* Plasserer tekst i midten */
+    margin: 0; /* Nullstiller margin */
+    padding: 0; /* Nullstiller padding */
+    background-color: blue;
+
+}
+#Overskrift {
+    font-size: 2em; /* Dobbler tekst størrelse som default */
+    margin-top: 35px; /* Bestemmer avstanden mellom enheteh og toppen av siden */
+    margin-bottom: 40px; /* Bestemmer avstanden mellom teksten og enheten under */
+}
+
+.ÅrstidKompass {
+    display: flex; /* Flex gjør det mulig å lage layout med enhetene  */
+    flex-wrap: wrap; /* [Denne linjen er kodet ved hjelp av chat-gpt] */
+    justify-content: center; /* Plasserer "child" enheten i midten av rammen chorisontalt */
+    align-items: center; /* Plasserer "child" enheten i midten av rammen vertikalt */
+    gap: 5px; /* Lager avstand mellom enhetene */
+    width: 200px;
+    margin: 0 auto; /* Plasserer rammen til tekstene I midten [Denne linjen er kodet ved hjelp av chat-gpt] */
+}
+
+.ÅrstidKompass div {
+    width: 150px; /* Bestemmer breiheten til de induviduelle */
+    height: 100px; /* Bestemmer høyden til de induviduelle */
+    display: flex;
+    justify-content: center; /*  */
+}
+
+/* */
